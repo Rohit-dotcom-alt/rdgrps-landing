@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rdgrps-landing/static/css/main.25ffee3c.chunk.css",
+    "main.js": "/rdgrps-landing/static/js/main.1a5f5253.chunk.js",
+    "main.js.map": "/rdgrps-landing/static/js/main.1a5f5253.chunk.js.map",
+    "runtime-main.js": "/rdgrps-landing/static/js/runtime-main.a6c7a441.js",
+    "runtime-main.js.map": "/rdgrps-landing/static/js/runtime-main.a6c7a441.js.map",
+    "static/js/2.a4b541f5.chunk.js": "/rdgrps-landing/static/js/2.a4b541f5.chunk.js",
+    "static/js/2.a4b541f5.chunk.js.map": "/rdgrps-landing/static/js/2.a4b541f5.chunk.js.map",
+    "index.html": "/rdgrps-landing/index.html",
+    "static/css/main.25ffee3c.chunk.css.map": "/rdgrps-landing/static/css/main.25ffee3c.chunk.css.map",
+    "static/js/2.a4b541f5.chunk.js.LICENSE.txt": "/rdgrps-landing/static/js/2.a4b541f5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6c7a441.js",
+    "static/js/2.a4b541f5.chunk.js",
+    "static/css/main.25ffee3c.chunk.css",
+    "static/js/main.1a5f5253.chunk.js"
+  ]
+}
