@@ -3,19 +3,23 @@ import './App.css';
 import logo from './rdgrps-logo.png';
 
 function App() {
+  // Function to handle button click
+  const handleGetStarted = () => {
+    window.location.href = '/signup.html';  // Redirect to signup page
+  };
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="RDGRPS Logo" className="logo" />
         <h1>Welcome to RDGRPS</h1>
         <p>Staffing Excellence Across Sectors</p>
-        {/* "Get Started" Button */}
-        <button className="get-started-btn" onClick={() => window.scrollTo(0, document.getElementById("about").offsetTop)}>
+        <button className="get-started" onClick={handleGetStarted}>
           Get Started
-        </button>
+        </button> {/* Interactive button */}
       </header>
 
-      <section className="about" id="about">
+      <section className="about">
         <h2>About Us</h2>
         <p>RDGRPS is a staffing and HR agency dedicated to providing expert corporate HR services across all industries, excluding blue-collar roles. We aim to redefine recruitment by focusing on precision, speed, and cultural fit.</p>
       </section>
