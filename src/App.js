@@ -2,17 +2,20 @@ import React from 'react';
 import './App.css';
 import logo from './rdgrps-logo.png';
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <img src={logo} alt="RDGRPS Logo" className="logo" />
+        <img src={logo} alt="RDGRPS Logo" className="logo" />
         <h1>Welcome to RDGRPS</h1>
         <p>Staffing Excellence Across Sectors</p>
+        {/* "Get Started" Button */}
+        <button className="get-started-btn" onClick={() => window.scrollTo(0, document.getElementById("about").offsetTop)}>
+          Get Started
+        </button>
       </header>
 
-      <section className="about">
+      <section className="about" id="about">
         <h2>About Us</h2>
         <p>RDGRPS is a staffing and HR agency dedicated to providing expert corporate HR services across all industries, excluding blue-collar roles. We aim to redefine recruitment by focusing on precision, speed, and cultural fit.</p>
       </section>
@@ -49,25 +52,24 @@ function App() {
       <section className="callback">
         <h2>Request a Callback</h2>
         <form
-  className="callback-form"
-  action="https://formsubmit.co/brohit222@gmail.com"
-  method="POST"
->
-  <label>Your Name</label>
-  <input type="text" name="name" placeholder="John Doe" required />
+          className="callback-form"
+          action="https://formsubmit.co/brohit222@gmail.com"
+          method="POST"
+        >
+          <label>Your Name</label>
+          <input type="text" name="name" placeholder="John Doe" required />
 
-  <label>Your Email</label>
-  <input type="email" name="email" placeholder="john@example.com" required />
+          <label>Your Email</label>
+          <input type="email" name="email" placeholder="john@example.com" required />
 
-  <label>Your Phone Number</label>
-  <input type="tel" name="phone" placeholder="+91-9876543210" required />
+          <label>Your Phone Number</label>
+          <input type="tel" name="phone" placeholder="+91-9876543210" required />
 
-  <label>Message</label>
-  <textarea name="message" placeholder="How can we help you?" rows="4" required></textarea>
-  <input type="hidden" name="_captcha" value="false" />
-  <button type="submit">Submit</button>
-</form>
-
+          <label>Message</label>
+          <textarea name="message" placeholder="How can we help you?" rows="4" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <button type="submit">Submit</button>
+        </form>
       </section>
 
       <footer className="footer">
